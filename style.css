@@ -21,3 +21,130 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #f5f5f5;
+}
+
+.zbozi {
+    max-width: 670px;
+    max-height: 440px;
+    display: flex;
+    border-radius: 2%;
+    margin: 30px auto;
+    box-shadow: 2px 4px 10px #959595;
+    } 
+
+.vizual{
+    padding: 30px 30px;
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 50%;
+    background: linear-gradient(#06d7c1,#50cc49);
+    border-radius: 2% 0 0 2%;
+    padding: 30px 30px;
+}
+
+.detaily {
+    padding: 30px 30px;
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 50%;
+    background-color: white;
+    border-radius: 0 2% 2% 0;
+}
+
+.logo{ 
+    padding-bottom: 30px;
+
+}
+.slogan{
+    font-size: 16px;
+    font-weight: 500px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.bota {
+    position: absolute;
+    left: -70px;
+    bottom: -10px;
+}
+
+.cenovka {
+    position: absolute;
+    right: 30px;
+    bottom:30px;
+    color: white;
+}
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    bottom: 50px;
+}
+
+.zaruka {
+    font-size: 12px;
+    bottom: 30px;  
+}
+
+.nazev {
+    position: relative;
+    font-size: 20px;
+    font-weight: 900;
+    font: bolder;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-weight: 500;
+    
+}
+
+.produkt {
+    color: #959595;
+}
+
+.popis {
+   margin: 30px 0;
+}
+
+.parametr {
+    margin: 0;
+    padding-top: 30px;
+    border-top: 1.5px #06d7c1 solid;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.velikosti {
+    padding-left: 0;
+}
+
+.velikosti li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.vybrana {
+    color: #f15f42;
+    border-radius: 50%;
+    border: 1px #f15f42 solid;
+    padding: 5px 5px;
+}
+
+.akce {
+    position: absolute;
+    bottom: 30px;
+}
+.tlacitko {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #f15f42;
+    padding: 12px 25px;
+    border-radius: 5%;
+
+}
