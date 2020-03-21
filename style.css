@@ -30,8 +30,8 @@ body {
 }
 
 .zbozi {
-    max-width: 670px;
-    max-height: 440px;
+    width: 670px;
+    height: 440px;
     display: flex;
     border-radius: 2%;
     margin: 30px auto;
@@ -63,7 +63,7 @@ body {
 }
 .slogan{
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     padding-bottom: 30px;
     color: white;
 }
@@ -79,11 +79,13 @@ body {
     right: 30px;
     bottom:30px;
     color: white;
+    text-align: right;
 }
 .cena {
     font-size: 28px;
     font-weight: 500;
     bottom: 50px;
+    text-align: right;
 }
 
 .zaruka {
